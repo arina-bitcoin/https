@@ -4,7 +4,7 @@ from flask import Flask
 def create_app():
     app = Flask(__name__)
     app.config['SECRET_KEY'] = 'EmoFan228'
-    a = 1, 2, 3
+    a = 1
     from .views import views
     from .auth import auth
 
